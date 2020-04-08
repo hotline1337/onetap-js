@@ -108,7 +108,7 @@ function on_paint()
     const c4 = Entity.GetEntitiesByClassID(128)[0];
     if (planting)
     {
-        if (player_name == entity_get_name(entity_get_local_player()))
+        if (player_name != entity_get_name(entity_get_local_player()))
         {
             render_string(17, 2, 0, bombsite + " - " + player_name, [0, 0, 0, 255], 4)
             render_string(15, 0, 0, bombsite + " - " + player_name, [r, g, b, 255], 4)
