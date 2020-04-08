@@ -77,7 +77,7 @@ function getBombDamage(player_entity, bomb_entity)
     var c = 789.2;
     var d = ((distance - b) / c);
     var damage = a * Math.exp(-d * d);
-    var armor_value = //entity_get_prop(player_entity, "CCSPlayer", "m_ArmorValue");
+    var armor_value = 0 //entity_get_prop(player_entity, "CCSPlayer", "m_ArmorValue");
 
     return Math.max(Math.ceil(getDamage(damage, armor_value)), 0)
 }
