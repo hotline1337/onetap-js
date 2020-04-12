@@ -2,7 +2,7 @@
  *
  * Title: Eso glow chams
  * Author: leed
- * Credits: VexatiousCheff for material helper js
+ * Credits: VexatiousCheff for material helper js and most of the code
 */
 
 var helper = require("module/material_helper.js")
