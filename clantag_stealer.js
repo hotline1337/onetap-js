@@ -52,7 +52,7 @@ const draw_current_tag = function()
 	if (!draw_checkbox.get(null))
 		return;
 		
-	const font = Render.AddFont('calibrib.ttf', 24, 100);
+	const font = Render.GetFont('calibrib.ttf', 24, true);
 	const tag = Entity.GetProp(Entity.GetLocalPlayer(), "CCSPlayerResource", "m_szClan");
 	
 	if (tag == "m_szClan" || tag == null)
